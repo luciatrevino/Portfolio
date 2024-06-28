@@ -1,0 +1,124 @@
+html {
+ background-image: url("blank-black-corporate-stationery-on-600nw-1051434977\ \(1\).webp");
+ background-size: cover;
+ background-position: center; /* Optional: Center the image horizontally and vertically */
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+} 
+.header{
+
+    padding: 50px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    transition: all .6s ease;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    background-color: #E6E6FA;
+    padding:10px;
+    z-index:9999;
+
+
+}
+.menu a{
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    color:#000000;
+    transition: all .6s ease;
+    background-color: #E6E6FA;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color:#CBC3E3;
+    padding: 10px;
+}
+
+
+
+.welcome{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 50px;
+color: #E6E6FA;
+padding: 30px;
+}
+.intro{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #E6E6FA;
+    margin-bottom: 220px;
+
+}
+a{
+    color:#000000;
+}
+
+/*About Me section*/
+.aboutme{
+    background-color:#000000;
+    
+}
+.ab{
+    color:#E6E6FA;
+    font-size:25px;
+    font-family: 'Lucida Handwriting';
+    padding:20px;
+}
+.abo{
+    color:#E6E6FA;
+    font-size:15px;
+    font-family: "Space Mono", monospace;
+    padding:30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+/* My skills and education*/
+.white-background{
+    background-color: rgba(255,255,255,.4);
+    position:relative;
+    margin-top: 20px;
+}
+.centered{
+    position:relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting';
+    padding: 30px;
+    
+}
+.middleSen{
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+.imgone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+footer{
+    color:#E6E6FA;
+    font-size:20px;
+    padding: 20px;
+    text-align: center;
+    
+}
