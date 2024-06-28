@@ -122,3 +122,18 @@ footer{
     text-align: center;
     
 }
+.projects-title{
+    position:relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting';
+    padding: 30px;
+
+}
+.contact-title{
+    position:relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting';
+    padding: 30px;
+}
